@@ -1,0 +1,137 @@
+.menu_header{
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.menu_items_header{
+    width: auto;
+    height: 3rem;
+    position: relative;
+    overflow: hidden;
+    background-color:var(--clr-orng);
+}
+
+.menu_logos_container{
+    display: grid;
+    width: 50vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;  
+}
+.menu_logos_box{
+    display: grid;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+.menu_items_container{
+    display: grid;
+    width: 90vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    gap: 1.5rem;
+}
+.menu_box{
+    display: grid;
+    background:rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+.dish_image{
+    display: block;
+    width: 100%;
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+.cards-icon{
+    border-radius: 1.5rem;
+    justify-content: center;
+    object-fit: cover;
+    width: 10rem;
+    height: 8rem;
+}
+.card{
+    text-align: center;
+}
+
+.cards-container{
+    display: grid;
+    width: 90vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.5rem;
+
+    }
+
+.cards{
+    display: grid;
+    background: var(--clr-white);
+    height: 16rem;
+    width: 10rem;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.feat-container{
+   
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    background-size: cover;
+    justify-content: center;
+    background-color: #6EAE8F;
+}
+
+.feat-icon{
+    margin: auto;
+
+}
+.img-dish-container{
+    background-color: var(--clr-white);
+}
+.dish-central-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.button_container{
+    margin-left:1rem ;
+}
+
+.description-detail{
+    display: grid;
+    margin-top: 2rem;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-lg);
+    text-align: left;
+    width: clamp(20ch, 50%, 55ch); 
+    margin-left: 2rem;
+
+}
+
+
+
+
+@media (max-width:720px){
+
+    .menu_logos_container{
+        display: grid;
+        width: 84vw;
+        margin: 2rem auto;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1.5rem;  
+    }
+    
+    
+   }

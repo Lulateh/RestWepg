@@ -1,0 +1,24 @@
+:root{
+    --ff-main: 'Poppins', sans-serif;
+    
+    /* font size */
+    --fs-lg: 3.5rem; /* 50px -> main title */
+    --fs-md: 1.225rem; /* 18px -> hindi text  */
+    --fs-nm: 1rem; /* 16px -> cards title */
+    --fs-sm: 0.875rem; /* 14px -> descript. */
+
+    /* font weight */
+    --fw-bd: 700; /* bold -> menu title */
+    --fw-lg: 300; /* light -> hero-text */
+    --fw-rg: 400; /* regular -> descript, filters */
+    --fw-md: 500; /* medium -> nav-list, hindi title */
+    --fw-sb: 600; /* semibold -> descript, btn, categories, main title*/
+
+    /* colors */
+    --clr-white: hsla(0, 0%, 100%, 1);
+    --clr-black: hsla(0, 0%, 0%, 1);
+    --clr-bleu: #1600bd;
+    --clr-orng: #EE7457;
+    --clr-clear-grn: #6EAE8F ;
+    --clr-drk-grn: #507E68 ;
+}

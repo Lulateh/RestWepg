@@ -1,0 +1,6 @@
+.hero-container{
+    
+    overflow: hidden;
+    background-color: var(--clr-white);
+    padding-top: 5rem;
+}
