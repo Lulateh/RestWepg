@@ -1,0 +1,30 @@
+
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: var(--clr-orng);
+    width: 100%;
+  }
+  
+  .topnav a {
+    display: block;
+    float: left;
+    color: var(--clr-white);
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-family: var(--ff-main);
+    font-size: 19px;
+    font-weight: var(--fw-md);
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: var(--clr-clear-grn);
+    color:var(--clr-white);
+  }
+  .topnav a:hover {
+    background-color:rgb(232, 232, 232);
+    color: var(--clr-bleu);
+  }
+  
